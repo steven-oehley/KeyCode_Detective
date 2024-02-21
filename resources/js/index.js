@@ -8,7 +8,7 @@ function displayKeyInfo(key, code, keyCode) {
 
 document.body.addEventListener('keypress', (e) => {
   const keyCode = e.keyCode;
-  const key = e.key;
+  const key = e.key === ' ' ? 'Spacebar' : e.key;
   const code = e.code;
   displayKeyInfo(key, code, keyCode);
 });
