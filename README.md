@@ -2,6 +2,7 @@
 
 <hr>
 KeyCode Detective is a simple web application that allows users to detect and display information about a pressed key, including its key name, code, and keycode. This readme provides an overview of the project structure and how to use it.
+A live demo can be viewed <a href="https://keycode-detective.netlify.app/">here</a>
 
 ## Usage 👨‍💻
 
