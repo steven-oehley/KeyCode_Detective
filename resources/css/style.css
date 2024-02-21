@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background: url('../magnifying_glass.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 920px;
+  width: 75%;
+  margin: 5em auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 5px solid #7e21ce;
+  border-radius: 20px;
+  color: #fff;
+  padding: 2em;
+}
+
+h1 {
+  font-size: 3.25rem;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-shadow: 2px 3px 2px #7e21ce;
+}
+
+h2 {
+  font-size: 4.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px #7e21ce;
+}
+
+h1,
+h2 {
+  font-family: Bangers;
+}
+
+p {
+  font-size: 1.25rem;
+  font-family: Oswald;
+}
+
+.key-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.key-info-section {
+  width: 25%;
+}
+
+.info {
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 200px;
+  border: 4px solid #7e21ce;
+}
