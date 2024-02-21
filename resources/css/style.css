@@ -57,4 +57,13 @@ p {
   background-color: rgba(255, 255, 255, 0.6);
   height: 200px;
   border: 4px solid #7e21ce;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info p {
+  color: #7e21ce;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
